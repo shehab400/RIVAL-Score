@@ -19,14 +19,13 @@ The proposed framework incorporates a three-component metric:
 3. **Peers Score (PS):**  
    Assesses the quality of decisions relative to similar players identified by playing style or positional role.
 
+
 ---
 
 ### A. Tactical Score (TS)
 The Tactical Score measures the degree to which a player’s contributions align with and enhance their team’s tactical execution. It is defined as:
 
-\[
-TS = \frac{Player\_TouchesVAEP}{Team\_TouchesVAEP} \times \frac{AVG(Player\_TouchesVAEP)}{actualVAEP_{expected}}
-\]
+![Tactical Score Equation](assets/TS_equation.png)
 
 - The **first component** quantifies the player’s share of contribution to the team’s overall value.  
 - The **second component** evaluates the added tactical value by comparing the expected decision, derived from team style, with the actual decision observed.  
@@ -41,9 +40,7 @@ The Similar Plays Score evaluates decision quality by analyzing analogous game s
 
 The score is calculated as:  
 
-\[
-SS = \frac{1}{N} \sum_{i=1}^{\#Plays} \frac{VAEP_i}{AVG_{SimilarPlays}(VAEP_i)}
-\]
+   ![Similar Plays Equation](assets/SS_equation.png)
 
 Where each ratio compares the player’s VAEP in a given play to the average VAEP of corresponding players in the retrieved similar plays.
 
@@ -54,9 +51,7 @@ The Peers Score benchmarks a player’s decision quality against comparable play
 
 It is defined as:  
 
-\[
-PS = \frac{\frac{Player\_TouchesVAEP}{Team\_TouchesVAEP}}{AVG_{SimilarPlayers}\left(\frac{Player\_TouchesVAEP}{Team\_TouchesVAEP}\right)}
-\]
+   ![Peers Score Equation](assets/PS_equation.png)
 
 This formulation captures whether the player performs above or below the decision-making benchmark set by peers with a similar role or style.
 
