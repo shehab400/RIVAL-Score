@@ -33,12 +33,12 @@ The Tactical Score measures the degree to which a player’s contributions align
 - The **second component** evaluates the added tactical value by comparing the expected decision, derived from team style, with the actual decision observed.  
 
 **Modeling Approach:**  
-A **Boformer model** ([Alcorn, 2021]) is trained on **63 matches** from the FIFA World Cup 2022 public dataset (tracking and event data). It is subsequently fine-tuned on **6 matches** of the player’s team (assuming progression to the final). The trained model generates the expected decisions against which player actions are benchmarked.
+A **Boformer model**  is trained on **63 matches** from the FIFA World Cup 2022 public dataset (tracking and event data). It is subsequently fine-tuned on **6 matches** of the player’s team (assuming progression to the final). The trained model generates the expected decisions against which player actions are benchmarked.
 
 ---
 
 ### B. Similar Plays Score (SS)
-The Similar Plays Score evaluates decision quality by analyzing analogous game situations. A **play2vec model** ([Wang, 2019]) is trained on the same dataset to embed plays and retrieve nearest-neighbor plays for comparison.  
+The Similar Plays Score evaluates decision quality by analyzing analogous game situations. A **play2vec model**  is trained on the same dataset to embed plays and retrieve nearest-neighbor plays for comparison.  
 
 The score is calculated as:  
 
@@ -88,6 +88,19 @@ RIVAL delivers a robust, data-driven assessment of decision effectiveness. This 
 ---
 
 ## References
-- Decroos, T. (2019). *Actions Speak Louder Than Goals: Valuing Player Actions in Soccer.*  
-- Alcorn, M. (2021). *Boformer: Transformer-Based Models for Tactical Decision Prediction in Soccer.*  
-- Wang, Z. (2019). *play2vec: Learning Representations of Soccer Plays for Retrieval and Analysis.*  
+<div>
+  - Decroos, T. (2019). Actions Speak Louder Than Goals: Valuing Player Actions in Soccer.*
+  (<a href="https://doi.org/10.1145/3292500.3330927">click here</a>)
+</div>
+<div>
+  - Alcorn, M. (2021). *Boformer: Transformer-Based Models for Tactical Decision Prediction in Soccer.*  
+  (<a href="https://doi.org/10.48550/arXiv.2104.11980">click here</a>)
+</div>
+ <div>
+  - Wang, Z. (2019). *play2vec: Learning Representations of Soccer Plays for Retrieval and Analysis.*  
+  (<a href="https://doi.org/10.1145/3292500.3330758">click here</a>)
+</div>
+ <div align="center">
+  - FIFA World Cup 2022 public dataset (tracking and event data).*
+  (<a href="https://drive.google.com/drive/folders/1_a_q1e9CXeEPJ3GdCv_3-rNO3gPqacfa">click here</a>)
+</div>
