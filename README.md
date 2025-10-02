@@ -100,7 +100,7 @@ RIVAL delivers a robust, data-driven assessment of decision effectiveness. This 
   - Wang, Z. (2019). *play2vec: Learning Representations of Soccer Plays for Retrieval and Analysis.*  
   (<a href="https://doi.org/10.1145/3292500.3330758">click here</a>)
 </div>
- <div align="center">
+ <div>
   - FIFA World Cup 2022 public dataset (tracking and event data).*
   (<a href="https://drive.google.com/drive/folders/1_a_q1e9CXeEPJ3GdCv_3-rNO3gPqacfa">click here</a>)
 </div>
