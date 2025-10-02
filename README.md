@@ -64,13 +64,17 @@ This formulation captures whether the player performs above or below the decisio
 
 ---
 
-## Results
-- **Figure 1** illustrates examples of similar plays identified for a given situation, highlighting variation in player decisions and their resulting values. 
- <div align="center">
-  <img src="Assets/Figure_1.png" alt="Peers Score Equation"/>
-   </div>
+## Results  
+
+- **Figure 1** illustrates examples of similar plays identified for a given situation, highlighting variation in player decisions and their resulting values.  
+
+<div align="center">
+  <img src="Assets/Figure_1.png" alt="Similar Plays Example" width="600"/>
+</div>  
+
 - **Table 1** presents RIVAL-derived scores for all players in the **2022 FIFA World Cup Final**.  
-# Player Scores
+
+### Table 1. Player Scores  
 
 | # | Player              | Tactical Score (TS) | Similar Plays Score (SS) | Peers Score (PS) | Public Rating (Final) | Public Rating (World Cup) |
 |---|---------------------|---------------------|---------------------------|------------------|-----------------------|---------------------------|
