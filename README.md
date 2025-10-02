@@ -90,7 +90,7 @@ RIVAL delivers a robust, data-driven assessment of decision effectiveness. This 
 ## References
 <div>
   - Decroos, T. (2019). Actions Speak Louder Than Goals: Valuing Player Actions in Soccer.*
-  (<a href="https://doi.org/10.1145/3292500.3330927">click here</a>)
+  (<a href="https://doi.org/10.1145/3292500.3330758">click here</a>)
 </div>
 <div>
   - Alcorn, M. (2021). *Boformer: Transformer-Based Models for Tactical Decision Prediction in Soccer.*  
@@ -98,7 +98,7 @@ RIVAL delivers a robust, data-driven assessment of decision effectiveness. This 
 </div>
  <div>
   - Wang, Z. (2019). *play2vec: Learning Representations of Soccer Plays for Retrieval and Analysis.*  
-  (<a href="https://doi.org/10.1145/3292500.3330758">click here</a>)
+  (<a href="https://doi.org/10.1145/3292500.3330927">click here</a>)
 </div>
  <div>
   - FIFA World Cup 2022 public dataset (tracking and event data).*
