@@ -104,3 +104,9 @@ RIVAL delivers a robust, data-driven assessment of decision effectiveness. This 
   - FIFA World Cup 2022 public dataset (tracking and event data).*
   (<a href="https://drive.google.com/drive/folders/1_a_q1e9CXeEPJ3GdCv_3-rNO3gPqacfa">click here</a>)
 </div>
+ <div>
+  - SofaScore public ratings.*
+  (<a href="https://www.sofascore.com/">click here</a>)
+</div>
+
+
