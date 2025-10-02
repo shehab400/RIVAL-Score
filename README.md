@@ -67,6 +67,29 @@ This formulation captures whether the player performs above or below the decisio
 ## Results
 - **Figure 1** illustrates examples of similar plays identified for a given situation, highlighting variation in player decisions and their resulting values.  
 - **Table 1** presents RIVAL-derived scores for all players in the **2022 FIFA World Cup Final**.  
+# Player Scores
+
+| # | Player              | Tactical Score (TS) | Similar Plays Score (SS) | Peers Score (PS) | Public Rating (Final) | Public Rating (World Cup) |
+|---|---------------------|---------------------|---------------------------|------------------|-----------------------|---------------------------|
+| **Argentina** |||||||
+| 1 | Lionel Messi        | 0.253               | 4.33                      | 2.30             | 9.2                   | 8.49                      |
+| 2 | Ángel Di María      | 0.227               | 3.96                      | 1.85             | 8.1                   | 7.68                      |
+| 3 | Rodrigo De Paul     | 0.116               | 4.20                      | 1.42             | 6.4                   | 7.25                      |
+| 4 | Enzo Fernández      | 0.100               | 3.65                      | 1.05             | 7.1                   | 7.50                      |
+| 5 | Alexis Mac Allister | 0.075               | 1.74                      | 0.79             | 7.4                   | 7.62                      |
+| 6 | Nicolás Otamendi    | 0.067               | 1.68                      | 0.75             | 6.1                   | 7.12                      |
+| 7 | C. Romero           | 0.063               | 2.30                      | 0.87             | 6.4                   | 6.86                      |
+| 8 | Nicolás Tagliafico  | 0.050               | 1.73                      | 0.54             | 6.8                   | 6.76                      |
+| **France** |||||||
+| 1 | Kylian Mbappé       | 0.434               | 1.68                      | 4.89             | 8.5                   | 8.31                      |
+| 2 | Olivier Giroud      | 0.188               | 1.29                      | 2.06             | 6.7                   | 7.47                      |
+| 3 | Theo Hernandez      | 0.147               | 0.90                      | 1.47             | 6.8                   | 7.74                      |
+| 4 | Antoine Griezmann   | 0.135               | 1.11                      | 1.28             | 7.1                   | 7.82                      |
+| 5 | Dayot Upamecano     | 0.065               | 1.16                      | 1.29             | 6.8                   | 7.23                      |
+| 6 | Kingsley Coman      | 0.063               | 2.43                      | 0.64             | 6.6                   | 6.34                      |
+| 7 | Jules Koundé        | 0.054               | 1.23                      | 0.40             | 6.3                   | 7.44                      |
+| 8 | A. Tchouaméni       | 0.050               | 0.78                      | 0.52             | 6.4                   | 7.61                      |
+
 
 When compared with public SofaScore ratings:  
 - The Tactical Score achieved an average coefficient of determination (**R² = 0.85**).  
